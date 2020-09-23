@@ -1,0 +1,177 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+  line-height: 1.5rem;
+}
+
+/* Headings */
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/* Section */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* Title */
+
+#title {
+  text-align: left;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.iphone-img {
+  height: auto;
+  margin-left: 20%;
+  position: absolute;
+  transform: rotate(10deg);
+  width: 260px;
+}
+
+@media (max-width: 900px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone-img {
+    transform: rotate(0);
+    position: static;
+    margin: 0;
+  }
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+
+/* Features */
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.feature {
+  padding: 5%;
+}
+
+.feature-heading{
+  line-height: 1.5;
+}
+
+.feature-icon {
+  color: #ef8172;
+  font-size: 4rem;
+  padding: 1rem;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+
+/* Testimonials */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.carousel-inner {
+  padding: 7% 15% 4% 15%;
+}
+
+.testimonial-img {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+.testimonial-text{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 1rem;
+}
+
+.press-icon {
+  margin: 30px 20px 30px;
+  width: 12%;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-box {
+  padding: 3% 2%;
+}
+
+.pricing-text{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+/* CTA */
+#cta {
+  padding: 5% 15% 3%;
+}
+
+/* Footer */
+#footer {
+  padding: 5% 15% 2%;
+}
+
+.footer-icon {
+  font-size: 1rem;
+  margin: 0 10px 20px;
+}
